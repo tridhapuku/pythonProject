@@ -1,4 +1,4 @@
-
+# Some boxes are placed in a row and each box can contain maximum one toy. Some of the boxes ar having a toy, and some are not. However, toys cannot be placed in adjacent boxes. Given an integer array of boxes containing O's and 1's, where 0 means empty and 1 means not emp and an integer n, return if n new toys can be placed in the row of box without violating the no- adjacent-toys rule and the position of the boxes shouldn't be disturbed. Example 1: Input: Boxes = [1,0,0,0,1), n = 1 Output: true Example 2 Input: Boxes = [1,0,0,0,1), n = 2 Output: false​
 
 
 def CheckIfTru(arr , n):
@@ -47,6 +47,7 @@ def CheckIfTru(arr , n):
 
 
 # arr = [0,1,0,0,0]
+# arr = [0,0,0,0,0,0]
 arr = [1,0,0,0,0,1]
 
 n = 1
